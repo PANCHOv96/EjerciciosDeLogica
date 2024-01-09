@@ -1,7 +1,7 @@
 import {expect, test , describe} from '@jest/globals';
 import { isAnagram } from './codigo';
 
-describe('EJERCICIO ¿ES UN ANAGRAMA?',()=>{
+describe('EJERCICIO 2: ¿ES UN ANAGRAMA?',()=>{
   test('Si las palabras tienen distinta cantidad de letras espera FALSE', () => {
     expect(isAnagram('Hola','Mundo')).toBeFalsy();
   });
