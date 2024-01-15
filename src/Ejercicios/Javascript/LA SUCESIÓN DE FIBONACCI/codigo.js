@@ -5,5 +5,3 @@ export function fibonacci(){
     }
     return arreglo
 }
-
-console.log(fibonacci());
